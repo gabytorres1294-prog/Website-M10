@@ -1,0 +1,10 @@
+---
+title: "Essay on Shiny Live"
+toc: true
+---
+
+## Lecture Notes
+
+> In Step 3, you learned about serverless Shiny Apps with "Shinylive." What is Shinylive? Assume that you are also explaining it to your coworkers. How does it differ from the traditional Shiny app introduced in Step 2? What are the pros and cons of Shinylive in comparison with Shiny Apps? These lecture notes will become your "Essay on Shiny Live" part of the website.
+
+Shinylive is a deployment method that compiles your standard Shiny app into a static set of web files. It accomplishes this using a technology called WebAssembly (Wasm) via an underlying tool called WebR. Essentially, WebAssembly allows a web browser to run complex software directly on a user's computer. When someone visits a Shinylive URL, their browser temporarily downloads a fully functional, lightweight version of R right into their tab. The difference from the traditional Shiny is where the math happens. One pro of Shinylive is that the app compiles into static HTML, JS, and CSS files. You don’t need an expensive R server. You can host your apps completely free on static platforms like GitHub Pages. Another pro is traditional servers crash if an app "goes viral" because the server gets overloaded processing requests. With Shinylive, 10,000 people can use the app at the exact same time without a stutter, because every user provides their own computational power. A third pro is once published to a static host, the app will essentially live forever without maintenance or ongoing server bills. This is perfect for accompanying academic papers or public company portfolios. One con of Shinylive is that the entire R environment and application script are downloaded directly into the user's browser and anyone can peek into the source code. You cannot use hidden API keys, database passwords, or proprietary proprietary data models. Another con is the first time a user visits a Shinylive app, there is a 5 to 10-second delay while the browser downloads the WebR bundle and required R packages. A third co is not every R package works in a WebAssembly environment yet.

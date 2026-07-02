@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: dashboard.qmd
+        text: "Dashboard"
+      - href: shiny_apps.qmd
+        text: "Shiny Apps Essay"
+      - href: shiny_live.qmd
+        text: "Shiny Live Essay"
+
+format:
+  html:
+    theme: cosmo
+    toc: true

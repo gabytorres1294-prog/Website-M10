@@ -1,0 +1,43 @@
+---
+title: "Welcome to My Portfolio"
+about:
+  template: jolla
+  image: Screenshot 2026-07-02 015445.png
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/gabytorres1294-prog
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gabriela-torres-a64b16408/
+---
+
+## Career Aspiration
+
+I am driven to build a lasting presence in the event decorating and experience design industries, focusing on delivering aesthetics to clients across the Greater Los Angeles Area. Ultimately, I aim to leverage my background to operate a specialized creative business.
+
+## Skills & Capabilities
+
+Organization
+
+Communication
+
+Problem Solving
+
+Collaboration
+
+Sales Experience
+
+Microsoft Programs
+
+Google Analytics
+
+Bilingual (English & Spanish)
+
+## Education
+
+**Bachelor of Science**
+
+*Major in Business Administration - Marketing Management*
+
+*Expected Graduation: July 2026*
